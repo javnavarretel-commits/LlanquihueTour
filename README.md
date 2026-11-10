@@ -57,3 +57,10 @@ Método toString()
 🔗 Repositorio
 
 https://github.com/javnavarretel-commits/LlanquihueTour
+
+## 🎥 Video explicativo
+
+En el siguiente video se presenta el funcionamiento del proyecto
+LlanquihueTour y se explican las clases implementadas.
+
+[Ver video explicativo] (video/explicacion_proyecto.mp4)
