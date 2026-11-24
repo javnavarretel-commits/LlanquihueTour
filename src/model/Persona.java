@@ -1,4 +1,3 @@
-
 package model;
 
 public class Persona {
@@ -59,12 +58,12 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona" +
-                "nombre:'" + nombre + '\'' +
-                ", rut:'" + rut + '\'' +
-                ", correo:'" + correo + '\'' +
-                ", telefono:'" + telefono + '\'' +
-                ", direccion:" + direccion +
+        return "Persona{" +
+                "nombre='" + nombre + '\'' +
+                ", rut='" + rut + '\'' +
+                ", correo='" + correo + '\'' +
+                ", telefono='" + telefono + '\'' +
+                ", direccion=" + direccion +
                 '}';
     }
 }

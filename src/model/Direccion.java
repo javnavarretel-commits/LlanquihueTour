@@ -1,6 +1,7 @@
 package model;
 
 public class Direccion {
+
     private String calle;
     private String numero;
     private String comuna;
@@ -12,46 +13,48 @@ public class Direccion {
         this.comuna = comuna;
         this.region = region;
     }
+
     public String getCalle() {
         return calle;
     }
-        public void setCalle(String calle) {
+
+    public void setCalle(String calle) {
         this.calle = calle;
-        }
+    }
 
-        public String getNumero() {
+    public String getNumero() {
         return numero;
-        }
+    }
 
-        public void setNumero(String numero) {
+    public void setNumero(String numero) {
         this.numero = numero;
-        }
+    }
 
-        public String getComuna() {
+    public String getComuna() {
         return comuna;
-        }
-        public void setComuna(String comuna) {
+    }
+
+    public void setComuna(String comuna) {
         this.comuna = comuna;
-        }
+    }
 
-        public String getRegion() {
+    public String getRegion() {
         return region;
-        }
+    }
 
-        public void setRegion(String region){
+    public void setRegion(String region) {
         this.region = region;
-        }
+    }
 
-        @Override
+    @Override
     public String toString() {
-            return "Direccion: " +
-                    "calle:'" + calle + '\'' +
-                    ", numero:'" + numero + '\'' +
-                    ", comuna:'" + comuna + '\'' +
-                    ", region:'" + region + '\'' +
-                    '}';
-        }
-
+        return "Direccion{" +
+                "calle='" + calle + '\'' +
+                ", numero='" + numero + '\'' +
+                ", comuna='" + comuna + '\'' +
+                ", region='" + region + '\'' +
+                '}';
+    }
 }
 
 
